@@ -1,0 +1,8 @@
+name: "Annotations_Test"
+description: "Testing 'Github Docker Actions' with annotations"
+runs:
+  using: docker
+  image: Dockerfile
+  # pre-entrypoint: "entrypoint.sh"
+  # entrypoint: "entrypoint.sh"
+  # post-entrypoint: "entrypoint.sh"
